@@ -13,7 +13,7 @@ if user_id == 'abcd' and user_pw == '1234':
     st.sidebar.write("select>> ", user_opt)
 
     # 메인 화면
-    st.subheader("main")
+    st.subheader("WELCOME")
     image_files=["welcome.jpg","le.jpg","ai.jpg","fu.jpg","rui.jpg","hui.jpg"]
     sel_index = sel_options.index(user_opt)
     img_file = image_files[sel_index]
